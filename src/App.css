@@ -1,7 +1,7 @@
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html,
@@ -10,20 +10,20 @@ body {
 }
 
 .App {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    font-family: Lato, sans-serif;
     justify-content:center;
     padding-top: 15px;
-    font-family: Lato, sans-serif;
 }
 
 .freecodecamp-logo-contenedor {
-    width: 100%;
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content:center;
     margin: 20px;
+    width: 100%;
 }
 
 .freecodecamp-logo {
@@ -31,11 +31,11 @@ body {
 }
 
 .contenedor-principal {
-    height: 550px;
-    min-width: 600px;
+    align-items: center;
     display:flex;
     flex-wrap: wrap;
     flex-direction:column;
-    align-items: center;
+    height: 550px;
     justify-content: center;
+    min-width: 600px;
 }
